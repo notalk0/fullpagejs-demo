@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <div class="section s3">
+      <!--div class="section s3">
         <div class="noshape">
           <h1>Skills</h1>
           <p>
@@ -46,7 +46,7 @@
             Windows 95/98/NT, Linux, MacOS, <br />Scrum.<br />
           </p>
         </div>
-      </div>
+      </div-->
 
       <div class="section s4">
         <div class="noshape">
@@ -139,11 +139,17 @@
       new fullpage('#fullPage', {
         autoScrolling: true,
         navigation: true,
-        anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
+        anchors: [
+          'section1',
+          'section2',
+          //'section3',
+          'section4',
+          'section5'
+        ],
         navigationTooltips: [
           'Home',
           'About Me',
-          'Skills',
+          //'Skills',
           'Projects',
           'Contact'
         ],
