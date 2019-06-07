@@ -1,54 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Reina Liew's Portfolio | A Software Enginner</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css" />
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
-
+  <body>
     <div id="fullPage">
+      <div class="section s1">
+        <div class="circle">
+          <h1>I'm Reina Liew</h1>
+          <h1>A Fullstack Developer</h1>
+        </div>
+      </div>
 
-        <div class="section s1">
-            <div class="circle">
-                <h1>I'm Reina Liew</h1>
-                <h1>A Fullstack Developer</h1>
+      <div class="section s2">
+        <div class="noshape">
+          <h1>About Me<br /></h1>
+          <p>
+            Name:&nbsp;&nbsp;&nbsp;Reina Liew Chee Mei<br />
+            D.O.B:&nbsp;&nbsp;&nbsp;1990, May 20<br />
+            From:&nbsp;&nbsp;&nbsp;Malaysia<br /><br />
+
+            Bachelor of Computer Science (Hons) <br />
+            6+ years working experience<br /><br />
+          </p>
+        </div>
+      </div>
+
+      <div class="section s3">
+        <div class="noshape">
+          <h1>Skills</h1>
+          <p>
+            C#, C++, Javascript, HTML and CSS, Delphi, Swift, <br />
+            .NET Core, .NET Framework, MEAN Stack, <br />
+            MSSQL, MySQL, SQLite, MongoDB, Firebird,<br />
+            Visual Studio, XCode, Github, SSMS,<br />
+            Windows 95/98/NT, Linux, MacOS, <br />Scrum.<br />
+          </p>
+        </div>
+      </div>
+
+      <div class="section s4">
+        <div class="noshape">
+          <h1>Projects</h1>
+          <div id="project-tiles">
+            <div class="project-tile">
+              <a href="https://codepen.io/notalk0/pen/arjpWp" target="_blank">
+                <h3>Product Landing Page</h3>
+                <img
+                  src="./images/pro-landing-page.JPG"
+                  alt="Product Landing Page"
+                />
+              </a>
             </div>
-        </div>
-
-        <div class="section s2">
-            <h1>Programmer's life</h1>
-            <h1>Once you dive in</h1>
-            <h1>never regret</h1>
-        </div>
-
-        <div class="section s3">
-            <div class="rectangle">
-                <h1>Join our comminity <br />
-                    Let us build better future</h1>
+            <div class="project-tile">
+              <a href="https://www.rsgs.com.my" target="_blank">
+                <h3>B2B Product Catalog</h3>
+                <img
+                  src="./images/pro-rsgs.JPG"
+                  alt="RS Global Sourcing Trading"
+                />
+              </a>
             </div>
+            <div class="project-tile">
+              <a
+                href="http://mcz.fortiddns.com:8088/DeLuxeApi/srs/#/signin?returnUrl=%2Fdcreplenishment"
+                target="_blank"
+              >
+                <h3>Stock Replenishment System</h3>
+                <img
+                  src="./images/pro-srs2.JPG"
+                  alt="Stock Replenishment System"
+                />
+              </a>
+            </div>
+            <div class="project-tile">
+              <a href="https://codepen.io/notalk0/pen/WBJYmG" target="_blank">
+                <h3>Survey Form</h3>
+                <img src="./images/pro-survey-form.JPG" alt="Survey Form" />
+              </a>
+            </div>
+            <div class="project-tile">
+              <a href="https://codepen.io/notalk0/pen/byjKLL" target="_blank">
+                <h3>Technical Documentation</h3>
+                <img
+                  src="./images/pro-technical-doc.JPG"
+                  alt="Technical Documentation"
+                />
+              </a>
+            </div>
+          </div>
+          <div id="show-all">
+            <h3>More on</h3>
+            <div id="show-all-logo">
+              <div id="github">
+                <a href="https://github.com/notalk0" target="_blank">
+                  <img src="./images/github.svg" alt="View my Github" />
+                </a>
+              </div>
+              <div id="codepen">
+                <a href="https://codepen.io/notalk0/" target="_blank">
+                  <img src="./images/codepen.svg" alt="View my CodePen" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
+      <div class="section s5">
+        <div class="rectangle">
+          <h1>Let us build better future</h1>
+          <p>
+            Contact me:
+            <a href="mailto:notalk_0@hotmail.com">notalk_0@hotmail.com</a><br />
+            <a
+              href="https://www.linkedin.com/in/reina-liew-chee-mei/"
+              target="_blank"
+            >
+              <img src="./images/linkedin.svg" alt="View my LinkedIn profile" />
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
 
     <script>
-        new fullpage('#fullPage', {
-            autoScrolling: true,
-            navigation: true,
-            anchors: ['section1', 'section2', 'section3'],
-            navigationTooltips: ['Home', 'About Us', 'Contact'],
-            showActiveTooptip: true,
-            scrollingSpeed: 1000
-        });
+      new fullpage('#fullPage', {
+        autoScrolling: true,
+        navigation: true,
+        anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
+        navigationTooltips: [
+          'Home',
+          'About Me',
+          'Skills',
+          'Projects',
+          'Contact'
+        ],
+        showActiveTooptip: true,
+        scrollingSpeed: 1000
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
