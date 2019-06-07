@@ -40,8 +40,14 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 58%;
+  margin: auto;
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .s1 .circle {
+    margin-left: 58%;
+  }
 }
 
 .s1 .circle h1 {

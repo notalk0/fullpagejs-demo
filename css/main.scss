@@ -40,8 +40,12 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 58%;
+        margin: auto;
         border-radius: 50%;
+
+        @include desktop {
+            margin-left: 58%;
+        }
 
         h1 {
             margin: 5px 0;
