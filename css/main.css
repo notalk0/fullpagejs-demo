@@ -124,7 +124,7 @@ p {
   -ms-flex-preferred-size: 80%;
       flex-basis: 80%;
   background: transparent;
-  font-family: 'Monserrat', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Monserrat', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -228,6 +228,14 @@ p {
   color: #000;
   font-size: 2em;
   text-align: center;
+}
+
+.s5 .rectangle p a {
+  color: #000;
+}
+
+.s5 .rectangle p a:hover {
+  color: #666;
 }
 
 .s5 .rectangle p img {
